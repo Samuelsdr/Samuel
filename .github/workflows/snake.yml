@@ -23,13 +23,13 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Commit and push snake animation
+        - name: Commit and push snake animation
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add dist/
-          git commit -m "Update snake animation"
-          git push origin HEAD:output
+          git commit -m "Update snake animation" || echo "No changes to commit"
+          git push origin HEAD:output --force || git push origin HEAD:output
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
