@@ -32,7 +32,7 @@ Me chamo Samuel da silva rocha, tenho 20 anos, estudo na Univerisade Estadual Po
 
 </p>
 
-![snake gif](https://github.com/Samuelsdr/Samuelsdr/blob/output/github-contribution-grid-snake.svg)
+
 
 
 
