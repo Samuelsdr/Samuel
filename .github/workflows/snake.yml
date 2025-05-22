@@ -32,3 +32,6 @@ jobs:
           git push origin HEAD:output
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+         Add snake animation workflow
+
